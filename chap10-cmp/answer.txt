@@ -1,0 +1,27 @@
+1. what is virtual function?
+
+"virtual function" is a function that is defined by base class and 
+is redefined by derived class. 
+
+2. what kind of functios cannot be virtual function?
+
+non-member function and constructor cannot be virtual function.
+
+3. how a virtual function works for a polymorphism?
+
+a virtual function supports polymorphism with base class pointer.
+if base class pointer points an objetc of derived class includes
+a virtual function, actual functiuon is decided by type of the object.
+
+4. what is pure virtual function?
+
+pure virtual function is a function that don't have any definition.
+
+5. what is an abstract class and polymorhic class?
+
+abstract class is base class that have at least one pure 
+virtual function.
+polymorphic class is base class that have at least one
+viratual funcrion.
+
+ 
