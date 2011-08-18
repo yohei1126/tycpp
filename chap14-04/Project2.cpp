@@ -70,7 +70,7 @@ int main() {
 
   proj.merge(proj2);
 
-  cout << "proj(merge)" << endl;
+  cout << "proj(merge):" << endl;
   p = proj.begin();
   while(p != proj.end()){
     p->report();
